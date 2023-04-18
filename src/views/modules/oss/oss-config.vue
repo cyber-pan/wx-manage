@@ -35,10 +35,10 @@
                 <el-form-item label="EndPoint">
                     <el-input v-model="dataForm.aliyunEndPoint" placeholder="阿里云EndPoint"></el-input>
                 </el-form-item>
-                <el-form-item label="AccessKeyId">
+                <el-form-item label="AK">
                     <el-input v-model="dataForm.aliyunAccessKeyId" placeholder="阿里云AccessKeyId"></el-input>
                 </el-form-item>
-                <el-form-item label="AccessKeySecret">
+                <el-form-item label="AKSecret">
                     <el-input v-model="dataForm.aliyunAccessKeySecret" placeholder="阿里云AccessKeySecret"></el-input>
                 </el-form-item>
                 <el-form-item label="BucketName">
